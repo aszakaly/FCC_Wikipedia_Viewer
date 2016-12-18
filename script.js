@@ -32,7 +32,7 @@ function search() {
 
                 // Then we also clear the array with the results before providing new information.
                 arrResults.length = 0;
-                var resArr = data.query.search;
+                var resArr = data.query.pages;
 
                 for (var result in resArr) {
                     arrResults.push(new Result(resArr[result].title, resArr[result].extract, resArr[result].pageid));
