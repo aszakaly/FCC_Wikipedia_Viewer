@@ -50,18 +50,3 @@ h1 {
     color: black;
     text-decoration: none;
 }
-
-/*Footer formats
-=====================================================================*/
-
-footer {
-    position:fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    color: #ababac;
-}
-
-footer a:hover {
-    text-decoration: none;
-}
