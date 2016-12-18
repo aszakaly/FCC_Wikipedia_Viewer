@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!--Custom stylesheet-->
+	<link rel="stylesheet" href="style.css">
+
+	<title>Wikipedia Viewer</title>
+
+    <!--[if IE]>
+    <script>http://html5shim.googlecode.com/svn/trunk/html5.js</script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="container">
+
+    <!--Search input and buttons
+    ========================================================================-->
+        <div class="col-sm-offset-2 col-sm-8">
+           <h1>Wikipedia Viewer</h1>
+            <section class="form-horizontal" id="search">
+                <label for="title" class="sr-only">Search</label>
+                <div class="input-group">
+                    <input type="search" class="form-control" id="title" placeholder="What do you want to search for?">
+                    <div class="input-group-addon"><i class="glyphicon glyphicon-search"></i></div>
+                </div>
+            </section>
+            <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="btn" id="random">Or you fancy a random article?</a>
+        </div>
+
+
+    <!--Results (sample format)
+    ========================================================================-->
+        <div class="col-sm-10 col-sm-offset-1" id="resultList">
+            <div class="results">
+
+            </div><!--result-->
+        </div> <!--#resultList-->
+
+    </div> <!--container-->
+
+    <!--Fixed footer
+    ========================================================================-->
+	<footer>
+
+	</footer>
+
+    <!--Javascript inclusion-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+
+</html>
